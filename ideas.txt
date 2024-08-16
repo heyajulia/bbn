@@ -1,0 +1,23 @@
+- implicit conversions?
+- explicit conversions: int, bool, string
+- imports
+- assert; grammar: 'assert' expression ',' expression
+- constants: 'val'
+- built-in collections
+- documentation function: doc/help, document user-defined functions with '///', but would need to update scanner not to
+  throw away comments
+- more useful stringification for functions: prettified(?) source code
+- creating functions etc. from strings: eval("fun(x, y) { return x + y; }")
+- custom operators
+- lambdas
+- "read" to read user input
+- loop as alias for while (true) like in Rust
+- Boehm GC as garbage collector
+- proper readline/libedit support
+- more built-in functions
+- more built-in types
+- module system
+- refactor checkKeyword function to eliminate length parameter
+- maybe refactor opcode stuff like this: https://gist.github.com/heyajulia/b244b172801d5b021002e6d50b1162a4
+- use stb_ds for dynamic arrays
+- set up testing and CI

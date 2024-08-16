@@ -1,0 +1,11 @@
+{
+  "github.copilot.enable": {
+    "c": false
+  },
+  "cmake.buildDirectory": "${workspaceFolder}/out",
+  "files.associations": {
+    "*.c": "c",
+    "*.h": "c",
+    ".clang-format": "yaml"
+  }
+}
